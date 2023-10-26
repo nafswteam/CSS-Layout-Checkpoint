@@ -64,6 +64,7 @@ nav {
     justify-content: center;
     gap: 20px;
     align-items: center;
+    flex-direction: column;
 }
 
 nav img {
@@ -276,6 +277,9 @@ footer a {
 @media only screen and (min-width: 900px) {
     .pictures-parent {
         grid-template-columns: auto auto auto;
+    }
+    .flex-div {
+        flex-direction: row;
     }
 }
 
